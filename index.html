@@ -330,21 +330,7 @@
         });
         bounds_group.addLayer(layer_PARCELA_1);
         map.addLayer(layer_PARCELA_1);
-        map.createPane('pane_Taskof20260410T141811663Zorthophoto_2');
-        map.getPane('pane_Taskof20260410T141811663Zorthophoto_2').style.zIndex = 402;
-        var img_Taskof20260410T141811663Zorthophoto_2 = 'data/Taskof20260410T141811663Zorthophoto_2.png';
-        var img_bounds_Taskof20260410T141811663Zorthophoto_2 = [[40.236369263063104,-2.1591796445518128],[40.23799836953849,-2.1569045286229875]];
-        var layer_Taskof20260410T141811663Zorthophoto_2 = new L.imageOverlay(img_Taskof20260410T141811663Zorthophoto_2,
-                                              img_bounds_Taskof20260410T141811663Zorthophoto_2,
-                                              {pane: 'pane_Taskof20260410T141811663Zorthophoto_2'});
-        bounds_group.addLayer(layer_Taskof20260410T141811663Zorthophoto_2);
-        map.addLayer(layer_Taskof20260410T141811663Zorthophoto_2);
         setBounds();
-        L.ImageOverlay.include({
-            getBounds: function () {
-                return this._bounds;
-            }
-        });
         </script>        
     </body>
 </html>
